@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link
+		rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+	/>
+	<link rel="stylesheet" href="css/style.min.css" />
+	<title>Главная</title>
+</head>
+
+
+<body>
+	<main>
+		<!-- Слайдеры  -->
+		<section class="brend">
+	<div class="brend__container">
+		<h2 class="brend__title">МОТОЭКИПИРОВКА</h2>
+		<h5 class="brend__sub-title">ПОСМОТРЕТЬ ВСЕ МОДЕЛИ БРЕНДА</h5>
+		<div class="brend__swiper">
+			<div class="brend__prev"> <img src="img/back-mob.png" alt=""></div>
+			
+			<div class="swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<a href="https://stuntexshop.ru/street/motohelmets" class="brend__item">
+							<div class="brend__image">
+								<img src="img/motohelmets.svg" alt="" />
+							</div>
+							<h3 class="brend__name">МОТОШЛЕМЫ</h3>
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="https://stuntexshop.ru/street/street_motokurtki" class="brend__item">
+							<div class="brend__image">
+								<img src="img/motokurtki.svg" alt="" />
+							</div>
+							<h3 class="brend__name">МОТОКУРТКИ</h3>
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="https://stuntexshop.ru/street/street_motoperchatki" class="brend__item">
+							<div class="brend__image">
+								<img src="img/motoperchatki.svg" alt="" />
+							</div>
+							<h3 class="brend__name">МОТОПЕРЧАТКИ</h3>
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="https://stuntexshop.ru/street/street_motozashchita" class="brend__item">
+							<div class="brend__image">
+								<img src="img/motozashchita.svg" alt="" />
+							</div>
+							<h3 class="brend__name">МОТОЗАЩИТА</h3>
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="https://stuntexshop.ru/street/street_motozhilety" class="brend__item">
+							<div class="brend__image">
+								<img src="img/motozhile.svg" alt="" />
+							</div>
+							<h3 class="brend__name">МОТОЖИЛЕТЫ</h3>
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="https://stuntexshop.ru/street/street_motodzhinsy" class="brend__item">
+							<div class="brend__image">
+								<img src="img/motodzhinsy.svg" alt="" />
+							</div>
+							<h3 class="brend__name">МОТОДЖИНСЫ</h3>
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="https://stuntexshop.ru/street/street_motoboty" class="brend__item">
+							<div class="brend__image">
+								<img src="img/motoboty.svg" alt="" />
+							</div>
+							<h3 class="brend__name">МОТОБОТЫ</h3>
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="https://stuntexshop.ru/street/street_motoriukzaki" class="brend__item">
+							<div class="brend__image">
+								<img src="img/motoriukzaki.svg" alt="" />
+							</div>
+							<h3 class="brend__name">МОТОРЮКЗАКИ</h3>
+						</a>
+					</div>
+					<div class="swiper-slide">
+						<a href="https://stuntexshop.ru/street/street_motoodezhda" class="brend__item">
+							<div class="brend__image">
+								<img src="img/motoodezhda.svg" alt="" />
+							</div>
+							<h3 class="brend__name">МОТООДЕЖДА</h3>
+						</a>
+					</div>
+						</div>
+					</div>
+					<div class="brend__next"><img src="img/next.png" alt=""><img src="img/next-mob.png" alt=""></div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+	</main>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+	<script type="text/javascript">
+		const swiper = new Swiper('.swiper', {
+			loop: true,
+			allowTouchMove: true,
+			slideToClickedSlide: false,
+			speed: 900,
+			slidesPerView: 4,
+			spaceBetween: 30,
+			navigation: {
+				nextEl: '.brend__next',
+				prevEl: '.brend__prev',
+			},
+
+			breakpoints: {
+				319.98: {
+					spaceBetween: 20,
+					slidesPerView: 2,
+				},
+				479.98: {
+					spaceBetween: 20,
+					slidesPerView: 3,
+				},
+				767.98: {
+					spaceBetween: 30,
+					slidesPerView: 4,
+				},
+				1199.98: {
+					spaceBetween: 30,
+					spaceBetween: 30,
+				},
+			},
+		})
+	</script>
+</body>
+
+</html>
