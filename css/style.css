@@ -211,12 +211,12 @@ main {
 }
 
 .brend {
-	padding: 100px 0;
+	padding: 60px 0;
 	background: #1f1f1f;
 }
 @media (max-width: 767.98px) {
 	.brend {
-		padding: 70px 0;
+		padding: 40px 0;
 	}
 }
 .brend__swiper {
@@ -495,3 +495,4 @@ main {
 	color: #fff;
 	text-transform: uppercase;
 }
+
