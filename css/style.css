@@ -230,7 +230,7 @@ main {
 }
 @media (max-width: 1199.98px) {
 	.brend__swiper {
-		grid-template-columns: 75px 75% 75px;
+		grid-template-columns: 75px 80% 75px;
 	}
 }
 @media (max-width: 991.98px) {
