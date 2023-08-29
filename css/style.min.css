@@ -16,7 +16,8 @@
 }
 @media (max-width: 489.98px) {
 	.brend__title {
-		font-size: 20px;
+		font-size: 24px;
+		letter-spacing: 3.2px;
 	}
 }
 
@@ -36,12 +37,13 @@
 }
 @media (max-width: 489.98px) {
 	.brend__sub-title {
-		font-size: 7px;
+		font-size: 11px;
+		letter-spacing: 1.304px;
 		padding: 0;
+		margin:-10px;
 		
 	}
 }
-
 @font-face {
 	font-family: gothampro;
 	font-display: swap;
@@ -182,7 +184,7 @@ body {
 	overflow-x: hidden;
 	min-width: 320px;
 	color: #fff;
-	font-family: gothampro;
+	font-family: gothampronarrow_medium;
 	font-size: 42px;
 	line-height: 100%;
 	font-weight: 300;
@@ -206,7 +208,6 @@ main {
 [class*='__container'] {
 	max-width: 1400px;
 	margin: 0px auto;
-	padding: 0 15px;
 }
 
 .brend {
@@ -294,6 +295,7 @@ main {
 		width: 25px;
 	}
 }
+
 .brend__prev svg,
 .brend__prev img,
 .brend__next svg,
@@ -301,6 +303,21 @@ main {
 	object-fit: cover;
 	max-width: 70%;
 }
+
+@media (min-width: 991.98px) {
+	.brend__prev svg,
+	.brend__prev img,
+	.brend__next svg,
+	.brend__next img {
+		object-fit: cover;
+		max-width: 50%;
+	}
+	
+}
+
+
+
+
 .brend__prev img:nth-child(1),
 .brend__prev svg:nth-child(1),
 .brend__next img:nth-child(1),
